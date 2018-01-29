@@ -1,0 +1,16 @@
+public class Example {
+
+    public static void main(String[] args){
+	
+		int a = 10;
+		int b = 300;
+		
+		int c =  (a * b) - b;
+		
+		int d = c * c;
+	
+		System.out.println(d);
+	
+	}
+	
+}

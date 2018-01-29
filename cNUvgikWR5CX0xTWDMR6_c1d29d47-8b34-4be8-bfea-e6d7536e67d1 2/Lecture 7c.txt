@@ -1,0 +1,14 @@
+
+public class Tutorial {
+
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 20;
+        int c = 30;
+
+        boolean test = (a < b) && ((b > c) || (b + a == c));
+        System.out.println("Test is equal to " + test);
+
+    }
+}

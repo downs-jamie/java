@@ -1,0 +1,26 @@
+// lecture 22
+// OOP concepts.
+public class Main {
+
+    public static void main(String[] args) {
+
+        class MyClass {
+
+            String name;
+            int age;
+        }
+
+        MyClass object1 = new MyClass();
+        object1.name = "Ollie";
+        object1.age = 18;
+
+        MyClass object2 = new MyClass();
+        object1.name = "Mark";
+        object1.age = 21;
+
+        System.out.println(object1.name + " is " + object1.age);
+
+        System.out.println(object2.name + " is " + object2.age);
+
+    }
+}

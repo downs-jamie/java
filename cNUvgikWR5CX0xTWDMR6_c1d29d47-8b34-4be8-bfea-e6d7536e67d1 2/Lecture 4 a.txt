@@ -1,0 +1,12 @@
+class Example {
+    public static void main(String[] args){
+	
+	// Variable-type, identifier; assignment-operator, value
+	
+	int a = 25;
+	
+	System.out.println(a);
+	
+	}
+	
+	}

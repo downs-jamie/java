@@ -1,0 +1,22 @@
+class Example {
+    public static void main(String[] args){
+	
+	// Variable-type, identifier; assignment-operator, value
+	
+	byte b;  // 8 bits
+	short s;  // 16 bits
+	int i = 23;  // 32 bits
+	long l = 1000000L; // 64 bits
+	
+	float f = 3.14f;  // 32 bits
+	double d = 3.14d;  //64 bits
+	
+	
+	System.out.println("i = " + i  + 
+						"l = " + l +
+						" f = " + f +
+						" d = "+d);
+	
+	}
+	
+	}

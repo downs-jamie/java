@@ -1,0 +1,14 @@
+public class Example {
+
+    public static void main(String[] args){
+	
+		String hello = "Hello";
+		String world = "World!";
+		
+		String helloWorld = hello+world;
+		
+		System.out.println(helloWorld);
+	
+	}
+	
+}
